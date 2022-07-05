@@ -7,7 +7,7 @@ variable aws_region {
 variable project_tag {
   description = "Value of the 'Project' tag for all resources"
   type        = string
-  default     = "learn-terraform-run-triggers"
+  default     = "terraform-run-triggers"
 }
 
 variable vpc_cidr_block {
